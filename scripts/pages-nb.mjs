@@ -56,7 +56,7 @@ ${nav("nb", "google")}
     <p class="lead">Google Ads er betalte søkeannonser som vises når noen i området ditt søker etter det du selger. Du betaler for klikk – ikke bare for visninger.</p>
   </div></section>
   <section class="section"><div class="wrap two-col-text">
-    <div><h2>Hva gjør jeg</h2>
+    <div><h2>Dette gjør jeg</h2>
       <ul class="list-check">
         <li>Oppsett av konto i ditt navn</li>
         <li>Søkeord og negative søkeord</li>

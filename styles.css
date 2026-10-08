@@ -124,6 +124,14 @@ a:hover {
   flex-shrink: 0;
 }
 
+.nav-desktop {
+  display: none;
+}
+
+.nav-menu {
+  margin-left: auto;
+}
+
 .nav-toggle {
   border: 1px solid var(--soft-line);
   background: var(--bg);
@@ -133,17 +141,18 @@ a:hover {
   font-weight: 700;
   color: var(--ink);
   cursor: pointer;
+  list-style: none;
 }
 
 .nav-toggle::-webkit-details-marker {
   display: none;
 }
 
-.nav-panel {
+.nav-menu > .nav-panel {
   display: none;
 }
 
-.site-nav[open] .nav-panel {
+.nav-menu[open] > .nav-panel {
   display: block;
 }
 
@@ -797,29 +806,16 @@ a:hover {
 }
 
 @media (min-width: 760px) {
-  .nav-toggle {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border: 0;
+  .nav-menu {
+    display: none;
   }
 
-  .site-nav {
+  .nav-desktop {
     display: block;
     flex: 1 1 auto;
   }
 
-  /* Keep desktop nav visible even when <details> is closed (no JS). */
-  .site-nav > .nav-panel {
-    display: block !important;
-  }
-
-  .nav-list {
+  .nav-desktop .nav-list {
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
@@ -828,12 +824,12 @@ a:hover {
     gap: 0.15rem 0.65rem;
   }
 
-  .nav-list a {
+  .nav-desktop .nav-list a {
     padding: 0.35rem 0.15rem;
     font-size: 0.95rem;
   }
 
-  .nav-list .btn {
+  .nav-desktop .nav-list .btn {
     margin-left: 0.15rem;
     padding: 0.55rem 0.9rem;
   }

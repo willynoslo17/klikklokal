@@ -331,15 +331,7 @@ write(
   <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-<a class="skip-link" href="#innhold">Hopp til innhold / Saltar al contenido</a>
-<header class="site-header">
-  <div class="wrap header-inner">
-    <a class="brand" href="/">
-      <img class="brand-mark" src="/favicon.svg" width="28" height="28" alt="">
-      Klikklokal
-    </a>
-  </div>
-</header>
+${nav("nb", "home")}
 <main id="innhold" class="section">
   <div class="wrap" style="max-width:40rem">
     <h1>404</h1>

@@ -71,17 +71,7 @@ export function nav(lang, pageKey) {
           aria: "Menú principal"
         };
   const omHref = lang === "nb" ? "/kontakt/#om-meg" : "/es/contacto/#sobre-mi";
-  return `<a class="skip-link" href="#innhold">${skip}</a>
-<header class="site-header">
-  <div class="wrap header-inner">
-    <a class="brand" href="${cur("home")}">
-      <img class="brand-mark" src="/favicon.svg" width="28" height="28" alt="">
-      Klikklokal
-    </a>
-    <details class="site-nav">
-      <summary class="nav-toggle">${meny}</summary>
-      <nav class="nav-panel" aria-label="${L.aria}">
-        <ul class="nav-list">
+  const links = `<ul class="nav-list">
           <li><a href="${cur("google")}">${L.google}</a></li>
           <li><a href="${cur("meta")}">${L.meta}</a></li>
           <li><a href="${cur("priser")}">${L.priser}</a></li>
@@ -93,7 +83,21 @@ export function nav(lang, pageKey) {
             <span aria-hidden="true">|</span>
             <a href="${p[pageKey].es}"${lang === "es" ? ' aria-current="true"' : ""}>ES</a>
           </li>
-        </ul>
+        </ul>`;
+  return `<a class="skip-link" href="#innhold">${skip}</a>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="${cur("home")}">
+      <img class="brand-mark" src="/favicon.svg" width="28" height="28" alt="">
+      Klikklokal
+    </a>
+    <nav class="nav-panel nav-desktop" aria-label="${L.aria}">
+      ${links}
+    </nav>
+    <details class="nav-menu">
+      <summary class="nav-toggle">${meny}</summary>
+      <nav class="nav-panel" aria-label="${L.aria}">
+        ${links}
       </nav>
     </details>
   </div>

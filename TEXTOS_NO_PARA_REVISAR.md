@@ -96,7 +96,7 @@
 - ES
 - Google Ads for lokale bedrifter
 - Google Ads er betalte søkeannonser som vises når noen i området ditt søker etter det du selger. Du betaler for klikk – ikke bare for visninger.
-- Hva gjør jeg
+- Dette gjør jeg
 - Oppsett av konto i ditt navn
 - Søkeord og negative søkeord
 - Annonsetekster på norsk og/eller spansk
