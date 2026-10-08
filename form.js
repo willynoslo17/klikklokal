@@ -50,8 +50,8 @@
   function mailtoFallback(lang) {
     var label =
       lang === "es"
-        ? 'También puedes escribirme a <a href="mailto:willynoslo17@gmail.com?subject=Klikklokal">willynoslo17@gmail.com</a>.'
-        : 'Du kan også sende e-post til <a href="mailto:willynoslo17@gmail.com?subject=Klikklokal">willynoslo17@gmail.com</a>.';
+        ? 'También puedes escribirme a <a href="mailto:kontakt@mlinternasjonal.no?subject=Klikklokal">kontakt@mlinternasjonal.no</a>.'
+        : 'Du kan også sende e-post til <a href="mailto:kontakt@mlinternasjonal.no?subject=Klikklokal">kontakt@mlinternasjonal.no</a>.';
     return label;
   }
 

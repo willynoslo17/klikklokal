@@ -45,7 +45,7 @@ const homeOrgLd = {
   url: `${BASE}/`,
   logo: `${BASE}/favicon.svg`,
   telephone: "+4791290416",
-  email: "willynoslo17@gmail.com",
+  email: "kontakt@mlinternasjonal.no",
   identifier: {
     "@type": "PropertyValue",
     name: "Organisasjonsnummer",
@@ -328,7 +328,7 @@ write(
   <title>404 – Siden finnes ikke | Página no encontrada – Klikklokal</title>
   <meta name="robots" content="noindex">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/styles.css?v=2">
 </head>
 <body>
 ${nav("nb", "home")}
@@ -341,7 +341,7 @@ ${nav("nb", "home")}
 </main>
 <footer class="site-footer">
   <div class="wrap">
-    <p class="footer-legal">Klikklokal er en del av ML Digital – MARTINEZ LOZANO INTERNASJONAL HANDEL · Org.nr. 935 407 095 MVA · Norbygata 19, 0187 Oslo · +47 912 90 416 · willynoslo17@gmail.com</p>
+    <p class="footer-legal">Klikklokal er en del av ML Digital – MARTINEZ LOZANO INTERNASJONAL HANDEL · Org.nr. 935 407 095 MVA · Norbygata 19, 0187 Oslo · +47 912 90 416 · kontakt@mlinternasjonal.no</p>
     <p class="trademark">Google Ads er et varemerke for Google LLC. Meta og Facebook er varemerker for Meta Platforms, Inc. Klikklokal er ikke tilknyttet Google eller Meta.</p>
   </div>
 </footer>

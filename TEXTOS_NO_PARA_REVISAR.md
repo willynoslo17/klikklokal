@@ -70,7 +70,7 @@
 - Jeg jobber på spansk og engelsk, og på norsk med kvalitetssikrede tekster.
 - Andre tjenester fra ML Digital
 - Rådgivning i internasjonal handel
-- Klikklokal er en del av ML Digital – MARTINEZ LOZANO INTERNASJONAL HANDEL · Org.nr. 935 407 095 MVA · Norbygata 19, 0187 Oslo · +47 912 90 416 · willynoslo17@gmail.com
+- Klikklokal er en del av ML Digital – MARTINEZ LOZANO INTERNASJONAL HANDEL · Org.nr. 935 407 095 MVA · Norbygata 19, 0187 Oslo · +47 912 90 416 · kontakt@mlinternasjonal.no
 - Priser
 - Gratis annonsesjekk
 - Personvern
@@ -133,7 +133,7 @@
 - Jeg kan gå gjennom den og bruke den videre. Kontoen forblir din.
 - Kan jeg pause annonsene?
 - Ja. Annonsebudsjettet kan pauses i plattformen. Den faste månedsprisen følger vilkårene for oppsigelse.
-- Klikklokal er en del av ML Digital – MARTINEZ LOZANO INTERNASJONAL HANDEL · Org.nr. 935 407 095 MVA · Norbygata 19, 0187 Oslo · +47 912 90 416 · willynoslo17@gmail.com
+- Klikklokal er en del av ML Digital – MARTINEZ LOZANO INTERNASJONAL HANDEL · Org.nr. 935 407 095 MVA · Norbygata 19, 0187 Oslo · +47 912 90 416 · kontakt@mlinternasjonal.no
 - Priser
 - Gratis annonsesjekk
 - Personvern
@@ -177,7 +177,7 @@
 - Ingen bindingstid – 1 måneds oppsigelse.
 - Du eier annonsekontoen. Ingen prosent av annonsebudsjettet.
 - Bestill en gratis samtale
-- Klikklokal er en del av ML Digital – MARTINEZ LOZANO INTERNASJONAL HANDEL · Org.nr. 935 407 095 MVA · Norbygata 19, 0187 Oslo · +47 912 90 416 · willynoslo17@gmail.com
+- Klikklokal er en del av ML Digital – MARTINEZ LOZANO INTERNASJONAL HANDEL · Org.nr. 935 407 095 MVA · Norbygata 19, 0187 Oslo · +47 912 90 416 · kontakt@mlinternasjonal.no
 - Priser
 - Gratis annonsesjekk
 - Personvern
@@ -268,7 +268,7 @@
 - Du får en månedlig rapport på et enkelt språk: hva det kostet, og hva du fikk (klikk, anrop, henvendelser) slik plattformene måler det.
 - Hvor mye bør jeg bruke på annonser?
 - Hvor mye du bør bruke på annonser, avhenger av bransje og område. Det går jeg gjennom med deg i den gratis sjekken.
-- Klikklokal er en del av ML Digital – MARTINEZ LOZANO INTERNASJONAL HANDEL · Org.nr. 935 407 095 MVA · Norbygata 19, 0187 Oslo · +47 912 90 416 · willynoslo17@gmail.com
+- Klikklokal er en del av ML Digital – MARTINEZ LOZANO INTERNASJONAL HANDEL · Org.nr. 935 407 095 MVA · Norbygata 19, 0187 Oslo · +47 912 90 416 · kontakt@mlinternasjonal.no
 - Priser
 - Gratis annonsesjekk
 - Personvern
@@ -319,7 +319,7 @@
 - La stå tom
 - Send inn
 - Ikke send passord. Hvis jeg trenger tilgang, ber jeg om lesetilgang via plattformen.
-- Klikklokal er en del av ML Digital – MARTINEZ LOZANO INTERNASJONAL HANDEL · Org.nr. 935 407 095 MVA · Norbygata 19, 0187 Oslo · +47 912 90 416 · willynoslo17@gmail.com
+- Klikklokal er en del av ML Digital – MARTINEZ LOZANO INTERNASJONAL HANDEL · Org.nr. 935 407 095 MVA · Norbygata 19, 0187 Oslo · +47 912 90 416 · kontakt@mlinternasjonal.no
 - Priser
 - Gratis annonsesjekk
 - Personvern
@@ -366,23 +366,20 @@
 - La stå tom
 - Send melding
 - +47 912 90 416
-- willynoslo17@gmail.com
+- kontakt@mlinternasjonal.no
 - Norbygata 19, 0187 Oslo, Norge
 - Om meg
 - Jeg heter Willy Edison Martínez Lozano. Klikklokal drives gjennom mitt enkeltpersonforetak MARTINEZ LOZANO INTERNASJONAL HANDEL, registrert i Oslo (org.nr. 935 407 095 MVA). Klikklokal er en del av ML Digital.
 - Jeg er grunnlegger av Wecrops Perú (byrå for markedsføring og videoproduksjon, Chimbote, 2015–2022) og har erfaring med markedsføring siden 2015. Jeg har 7 diplomer fra Toulouse Lautrec (2019–2021).
 - Jeg jobber på spansk og engelsk, og på norsk med kvalitetssikrede tekster.
 - Rådgivning i internasjonal handel
-- Klikklokal er en del av ML Digital – MARTINEZ LOZANO INTERNASJONAL HANDEL · Org.nr. 935 407 095 MVA · Norbygata 19, 0187 Oslo · +47 912 90 416 · willynoslo17@gmail.com
+- Klikklokal er en del av ML Digital – MARTINEZ LOZANO INTERNASJONAL HANDEL · Org.nr. 935 407 095 MVA · Norbygata 19, 0187 Oslo · +47 912 90 416 · kontakt@mlinternasjonal.no
 - Priser
 - Gratis annonsesjekk
 - Personvern
 - willymartinez.no/consulting
 - © 2026
 - Google Ads er et varemerke for Google LLC. Meta og Facebook er varemerker for Meta Platforms, Inc. Klikklokal er ikke tilknyttet Google eller Meta.
-
-### Alt-tekster
-- Willy Edison Martínez Lozano
 
 ---
 
@@ -403,7 +400,7 @@
 - Personvernerklæring
 - Sist oppdatert: 8. oktober 2026
 - Behandlingsansvarlig
-- MARTINEZ LOZANO INTERNASJONAL HANDEL (enkeltpersonforetak), org.nr. 935 407 095 MVA, Norbygata 19, 0187 Oslo. E-post: willynoslo17@gmail.com. Telefon: +47 912 90 416. Klikklokal er en del av ML Digital.
+- MARTINEZ LOZANO INTERNASJONAL HANDEL (enkeltpersonforetak), org.nr. 935 407 095 MVA, Norbygata 19, 0187 Oslo. E-post: kontakt@mlinternasjonal.no. Telefon: +47 912 90 416. Klikklokal er en del av ML Digital.
 - Hvilke opplysninger samles inn
 - Via kontaktskjemaet og skjemaet for gratis annonsesjekk kan jeg motta navn, bedrift, e-post, telefon, nettside, bransje/område, svar på spørsmål om annonsering, ønsket resultat, valgt pakke og eventuell melding.
 - Formål og rettslig grunnlag
@@ -418,7 +415,7 @@
 - Denne nettsiden bruker ikke sporingscookies, piksler eller analyseverktøy fra tredjeparter.
 - Kampanjer for kunder
 - Når jeg setter opp annonser for deg, er du behandlingsansvarlig for data fra din nettside og dine annonsekontoer. Jeg opptrer som databehandler etter avtale. Konverteringssporing aktiveres bare med samtykke på din nettside.
-- Klikklokal er en del av ML Digital – MARTINEZ LOZANO INTERNASJONAL HANDEL · Org.nr. 935 407 095 MVA · Norbygata 19, 0187 Oslo · +47 912 90 416 · willynoslo17@gmail.com
+- Klikklokal er en del av ML Digital – MARTINEZ LOZANO INTERNASJONAL HANDEL · Org.nr. 935 407 095 MVA · Norbygata 19, 0187 Oslo · +47 912 90 416 · kontakt@mlinternasjonal.no
 - Priser
 - Gratis annonsesjekk
 - Personvern
@@ -444,7 +441,7 @@
 - Inicio
 - o mira
 - Precios
-- Klikklokal er en del av ML Digital – MARTINEZ LOZANO INTERNASJONAL HANDEL · Org.nr. 935 407 095 MVA · Norbygata 19, 0187 Oslo · +47 912 90 416 · willynoslo17@gmail.com
+- Klikklokal er en del av ML Digital – MARTINEZ LOZANO INTERNASJONAL HANDEL · Org.nr. 935 407 095 MVA · Norbygata 19, 0187 Oslo · +47 912 90 416 · kontakt@mlinternasjonal.no
 - Google Ads er et varemerke for Google LLC. Meta og Facebook er varemerker for Meta Platforms, Inc. Klikklokal er ikke tilknyttet Google eller Meta.
 
 ---
@@ -452,8 +449,8 @@
 ## Skjema-meldinger (`form.js`, norsk)
 
 - Takk! Jeg svarer innen 1 virkedag.
-- Innsending er ikke konfigurert akkurat nå. Du kan også sende e-post til willynoslo17@gmail.com
-- Kunne ikke sende skjemaet. Du kan også sende e-post til willynoslo17@gmail.com
+- Innsending er ikke konfigurert akkurat nå. Du kan også sende e-post til kontakt@mlinternasjonal.no
+- Kunne ikke sende skjemaet. Du kan også sende e-post til kontakt@mlinternasjonal.no
 
 ---
 

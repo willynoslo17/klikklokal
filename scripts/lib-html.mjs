@@ -41,7 +41,7 @@ export function documentHead({ lang, title, description, path, altPath, locale, 
   <meta name="twitter:description" content="${description}">
   <meta name="twitter:image" content="${abs("/og-image.png")}">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/styles.css?v=2">
 ${extra}</head>`;
 }
 
@@ -108,7 +108,7 @@ export function footer(lang) {
   if (lang === "nb") {
     return `<footer class="site-footer">
   <div class="wrap">
-    <p class="footer-legal">Klikklokal er en del av ML Digital – MARTINEZ LOZANO INTERNASJONAL HANDEL · Org.nr. 935 407 095 MVA · Norbygata 19, 0187 Oslo · +47 912 90 416 · willynoslo17@gmail.com</p>
+    <p class="footer-legal">Klikklokal er en del av ML Digital – MARTINEZ LOZANO INTERNASJONAL HANDEL · Org.nr. 935 407 095 MVA · Norbygata 19, 0187 Oslo · +47 912 90 416 · kontakt@mlinternasjonal.no</p>
     <nav class="footer-nav" aria-label="Bunnmeny">
       <a href="/priser/">Priser</a>
       <a href="/gratis-annonsesjekk/">Gratis annonsesjekk</a>
@@ -119,13 +119,13 @@ export function footer(lang) {
     <p class="trademark">Google Ads er et varemerke for Google LLC. Meta og Facebook er varemerker for Meta Platforms, Inc. Klikklokal er ikke tilknyttet Google eller Meta.</p>
   </div>
 </footer>
-<script src="/form.js" defer></script>
+<script src="/form.js?v=2" defer></script>
 </body>
 </html>`;
   }
   return `<footer class="site-footer">
   <div class="wrap">
-    <p class="footer-legal">Klikklokal forma parte de ML Digital – MARTINEZ LOZANO INTERNASJONAL HANDEL · Org.nr. 935 407 095 MVA · Norbygata 19, 0187 Oslo · +47 912 90 416 · willynoslo17@gmail.com</p>
+    <p class="footer-legal">Klikklokal forma parte de ML Digital – MARTINEZ LOZANO INTERNASJONAL HANDEL · Org.nr. 935 407 095 MVA · Norbygata 19, 0187 Oslo · +47 912 90 416 · kontakt@mlinternasjonal.no</p>
     <nav class="footer-nav" aria-label="Pie de página">
       <a href="/es/precios/">Precios</a>
       <a href="/es/revision-gratis/">Revisión gratis</a>
@@ -136,7 +136,7 @@ export function footer(lang) {
     <p class="trademark">Google Ads es una marca de Google LLC. Meta y Facebook son marcas de Meta Platforms, Inc. Klikklokal no está afiliado a Google ni a Meta.</p>
   </div>
 </footer>
-<script src="/form.js" defer></script>
+<script src="/form.js?v=2" defer></script>
 </body>
 </html>`;
 }
