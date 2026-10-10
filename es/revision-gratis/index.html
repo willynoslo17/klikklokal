@@ -115,9 +115,11 @@
       </fieldset>
       <label>Mensaje <span class="hint">(opcional)</span><textarea name="melding"></textarea></label>
       <label class="checkbox"><input type="checkbox" name="consent" value="true" required> Acepto que mis datos se usen para responderme, según la <a href="/es/privacidad/">política de privacidad</a>.</label>
-      <label class="hp" aria-hidden="true">Dejar vacío<input type="text" name="website_url" tabindex="-1" autocomplete="off"></label>
+      <input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden">
+      <input type="hidden" name="ts">
+      <div class="cf-turnstile" data-sitekey="0x4AAAAAAFTHhaOtzzj9eenB" data-language="nb"></div>
       <button class="btn btn-primary" type="submit">Enviar</button>
-      <p class="form-status" hidden></p>
+      <p class="form-status" role="status" aria-live="polite" hidden></p>
     </form>
     <p class="muted" style="margin-top:1rem">No envíes contraseñas. Si necesito acceso, pediré permiso de solo lectura desde la plataforma.</p>
   </div></section>
@@ -135,6 +137,7 @@
     <p class="trademark">Google Ads es una marca de Google LLC. Meta y Facebook son marcas de Meta Platforms, Inc. Klikklokal no está afiliado a Google ni a Meta.</p>
   </div>
 </footer>
-<script src="/form.js?v=2" defer></script>
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+<script src="/form.js?v=3" defer></script>
 </body>
 </html>

@@ -115,9 +115,11 @@
       </fieldset>
       <label>Melding <span class="hint">(valgfritt)</span><textarea name="melding"></textarea></label>
       <label class="checkbox"><input type="checkbox" name="consent" value="true" required> Jeg godtar at opplysningene brukes for å svare meg, i tråd med <a href="/personvern/">personvernerklæringen</a>.</label>
-      <label class="hp" aria-hidden="true">La stå tom<input type="text" name="website_url" tabindex="-1" autocomplete="off"></label>
+      <input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden">
+      <input type="hidden" name="ts">
+      <div class="cf-turnstile" data-sitekey="0x4AAAAAAFTHhaOtzzj9eenB" data-language="nb"></div>
       <button class="btn btn-primary" type="submit">Send inn</button>
-      <p class="form-status" hidden></p>
+      <p class="form-status" role="status" aria-live="polite" hidden></p>
     </form>
     <p class="muted" style="margin-top:1rem">Ikke send passord. Hvis jeg trenger tilgang, ber jeg om lesetilgang via plattformen.</p>
   </div></section>
@@ -135,6 +137,7 @@
     <p class="trademark">Google Ads er et varemerke for Google LLC. Meta og Facebook er varemerker for Meta Platforms, Inc. Klikklokal er ikke tilknyttet Google eller Meta.</p>
   </div>
 </footer>
-<script src="/form.js?v=2" defer></script>
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+<script src="/form.js?v=3" defer></script>
 </body>
 </html>

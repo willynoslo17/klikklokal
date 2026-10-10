@@ -8,6 +8,16 @@
     usikker: true
   };
 
+  var ENDPOINT = "https://ml-inbox.willynoslo17.workers.dev/lead";
+
+  var MSG = {
+    ok: "Takk! Meldingen din er sendt. Vi tar kontakt så snart som mulig.",
+    rate: "For mange forsøk. Vent et minutt og prøv igjen.",
+    forbidden: "Vi kunne ikke bekrefte at du er et menneske. Last inn siden på nytt og prøv igjen.",
+    error: "Beklager, noe gikk galt. Prøv igjen, eller send oss en e-post på kontakt@mlinternasjonal.no.",
+    turnstile: "Vent til sikkerhetssjekken er ferdig, og prøv igjen."
+  };
+
   function qs(name) {
     try {
       return new URLSearchParams(window.location.search).get(name);
@@ -27,100 +37,92 @@
     }
   }
 
-  function setStatus(el, ok, html) {
+  function setTs(form) {
+    var ts = form.querySelector('[name="ts"]');
+    if (ts) ts.value = String(Date.now());
+  }
+
+  function setStatus(el, ok, text) {
     if (!el) return;
     el.hidden = false;
     el.className = "form-status " + (ok ? "ok" : "err");
-    el.innerHTML = html;
+    el.textContent = text;
   }
 
-  function serialize(form) {
-    var data = {};
+  function resetTurnstile() {
+    try {
+      if (window.turnstile && typeof window.turnstile.reset === "function") {
+        window.turnstile.reset();
+      }
+    } catch (e) {}
+  }
+
+  function buildPayload(form) {
     var fd = new FormData(form);
-    fd.forEach(function (value, key) {
-      if (key === "website_url") return;
-      data[key] = typeof value === "string" ? value.trim() : value;
-    });
-    data.consent = !!form.querySelector('[name="consent"]:checked');
-    data.lang = form.getAttribute("data-lang") || "nb";
-    data.honeypot = (fd.get("website_url") || "").toString();
-    return data;
-  }
-
-  function mailtoFallback(lang) {
-    var label =
-      lang === "es"
-        ? 'También puedes escribirme a <a href="mailto:kontakt@mlinternasjonal.no?subject=Klikklokal">kontakt@mlinternasjonal.no</a>.'
-        : 'Du kan også sende e-post til <a href="mailto:kontakt@mlinternasjonal.no?subject=Klikklokal">kontakt@mlinternasjonal.no</a>.';
-    return label;
+    var payload = {
+      nombre: (fd.get("navn") || "").toString().trim(),
+      email: (fd.get("email") || "").toString().trim(),
+      telefono: (fd.get("telefon") || "").toString().trim() || "",
+      mensaje: (fd.get("melding") || "").toString().trim(),
+      marca: "klikklokal",
+      pagina: window.location.pathname,
+      turnstile_token: (fd.get("cf-turnstile-response") || "").toString(),
+      website: (fd.get("website") || "").toString(),
+      ts: Number(fd.get("ts")) || Date.now()
+    };
+    if (form.querySelector('[name="bedrift"]')) {
+      payload.empresa = (fd.get("bedrift") || "").toString().trim();
+    }
+    return payload;
   }
 
   function bindForm(form) {
     preselectPakke(form);
+    setTs(form);
     var status = form.querySelector(".form-status");
-    var lang = form.getAttribute("data-lang") || "nb";
 
     form.addEventListener("submit", function (event) {
       event.preventDefault();
-      var payload = serialize(form);
       var submitBtn = form.querySelector('[type="submit"]');
-      if (submitBtn) submitBtn.disabled = true;
+      var tokenEl = form.querySelector('[name="cf-turnstile-response"]');
+      var token = tokenEl ? tokenEl.value : "";
 
-      fetch("/api/kontakt", {
+      if (!token) {
+        setStatus(status, false, MSG.turnstile);
+        return;
+      }
+
+      if (submitBtn) submitBtn.disabled = true;
+      var payload = buildPayload(form);
+
+      fetch(ENDPOINT, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload)
       })
         .then(function (res) {
-          return res.json().catch(function () {
-            return { ok: false };
-          }).then(function (body) {
-            return { res: res, body: body };
-          });
-        })
-        .then(function (_ref) {
-          var res = _ref.res;
-          var body = _ref.body;
-          if (res.ok && body && body.ok) {
-            setStatus(
-              status,
-              true,
-              lang === "es"
-                ? "¡Gracias! Respondo en 1 día laborable."
-                : "Takk! Jeg svarer innen 1 virkedag."
-            );
+          if (res.status === 200) {
+            setStatus(status, true, MSG.ok);
             form.reset();
             preselectPakke(form);
+            setTs(form);
             return;
           }
-          if (res.status === 503 || (body && body.error === "not_configured")) {
-            setStatus(
-              status,
-              false,
-              (lang === "es"
-                ? "El envío no está configurado ahora. "
-                : "Innsending er ikke konfigurert akkurat nå. ") + mailtoFallback(lang)
-            );
+          if (res.status === 429) {
+            setStatus(status, false, MSG.rate);
             return;
           }
-          setStatus(
-            status,
-            false,
-            (lang === "es"
-              ? "No pude enviar el formulario. "
-              : "Kunne ikke sende skjemaet. ") + mailtoFallback(lang)
-          );
+          if (res.status === 403) {
+            setStatus(status, false, MSG.forbidden);
+            return;
+          }
+          setStatus(status, false, MSG.error);
         })
         .catch(function () {
-          setStatus(
-            status,
-            false,
-            (lang === "es"
-              ? "No pude enviar el formulario. "
-              : "Kunne ikke sende skjemaet. ") + mailtoFallback(lang)
-          );
+          setStatus(status, false, MSG.error);
         })
         .finally(function () {
+          resetTurnstile();
           if (submitBtn) submitBtn.disabled = false;
         });
     });
