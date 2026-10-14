@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="107" viewBox="64 149 350 107">
+  <g>
+    
+  <circle cx="100" cy="185" r="28" fill="#FFFFFF"/>
+  <path d="M100 213 v30" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="100" cy="185" r="10" fill="none" stroke="white" stroke-width="4"/>
+
+    <text x="180" y="212" font-family="Inter" font-size="48" font-weight="600" fill="#FFFFFF" dominant-baseline="middle">Klikklokal</text>
+  </g>
+</svg>
