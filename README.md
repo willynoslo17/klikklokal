@@ -2,7 +2,7 @@
 
 Web estática de **Klikklokal** (parte de ML Digital): Google Ads y Meta-annonser (Facebook) para negocios locales en Noruega.
 
-- **URL temporal:** https://klikklokal.pages.dev  
+- **URL temporal:** https://klikklokal.no  
 - **Stack:** HTML + CSS + JS mínimo (sin build). Cloudflare Pages + Pages Function para el formulario.
 - **Idiomas:** noruego bokmål (raíz) y español (`/es/`).
 
@@ -50,7 +50,7 @@ npx wrangler pages secret put KONTAKT_WEBHOOK_URL --project-name klikklokal
    - **Build command:** *(vacío)*
    - **Build output directory:** `/`
 4. Guarda. La web se publica cuando se haga merge del PR a `main`.
-5. Si `klikklokal.pages.dev` ya está ocupado, elige otro nombre de proyecto y ejecuta:
+5. Si `klikklokal.no` ya está ocupado, elige otro nombre de proyecto y ejecuta:
    ```bash
    node scripts/set-base-url.mjs https://<tu-proyecto>.pages.dev
    ```

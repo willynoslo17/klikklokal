@@ -399,7 +399,7 @@ ${nav("nb", "sjekk")}
     <p class="price-note">Gratis og uforpliktende. Du får svar på e-post.</p>
   </div></section>
   <section class="section"><div class="wrap">
-    <form class="form js-kontakt" data-lang="nb" method="post" action="mailto:kontakt@mlinternasjonal.no?subject=Klikklokal">
+    <form class="form js-kontakt" data-lang="nb" method="post" action="mailto:kontakt@klikklokal.no?subject=Klikklokal">
       <input type="hidden" name="pakke" value="annonsesjekk">
       <label>Navn<input name="navn" required autocomplete="name"></label>
       <label>Bedrift<input name="bedrift" autocomplete="organization"></label>
@@ -453,7 +453,7 @@ ${nav("nb", "kontakt")}
     <p class="lead">Fortell kort hva du trenger, så svarer jeg innen 1 virkedag.</p>
   </div></section>
   <section class="section"><div class="wrap split">
-    <form class="form js-kontakt" data-lang="nb" method="post" action="mailto:kontakt@mlinternasjonal.no?subject=Klikklokal">
+    <form class="form js-kontakt" data-lang="nb" method="post" action="mailto:kontakt@klikklokal.no?subject=Klikklokal">
       <label>Navn<input name="navn" required autocomplete="name"></label>
       <label>Bedrift <span class="hint">(valgfritt)</span><input name="bedrift" autocomplete="organization"></label>
       <label>E-post<input name="email" type="email" required autocomplete="email"></label>
@@ -478,7 +478,7 @@ ${nav("nb", "kontakt")}
     <div>
       <ul class="contact-list">
         <li><a href="tel:+4791290416">+47 912 90 416</a></li>
-        <li><a href="mailto:kontakt@mlinternasjonal.no">kontakt@mlinternasjonal.no</a></li>
+        <li><a href="mailto:kontakt@klikklokal.no">kontakt@klikklokal.no</a></li>
         <li>Norbygata 19, 0187 Oslo, Norge</li>
       </ul>
     </div>
@@ -521,7 +521,7 @@ ${nav("nb", "personvern")}
   </div></section>
   <section class="section"><div class="wrap" style="max-width:44rem">
     <h2>Behandlingsansvarlig</h2>
-    <p>MARTINEZ LOZANO INTERNASJONAL HANDEL (enkeltpersonforetak), org.nr. 935 407 095 MVA, Norbygata 19, 0187 Oslo. E-post: kontakt@mlinternasjonal.no. Telefon: +47 912 90 416. Klikklokal er en del av ML Digital.</p>
+    <p>MARTINEZ LOZANO INTERNASJONAL HANDEL (enkeltpersonforetak), org.nr. 935 407 095 MVA, Norbygata 19, 0187 Oslo. E-post: kontakt@klikklokal.no. Telefon: +47 912 90 416. Klikklokal er en del av ML Digital.</p>
     <h2>Hvilke opplysninger samles inn</h2>
     <p>Via kontaktskjemaet og skjemaet for gratis annonsesjekk kan jeg motta navn, bedrift, e-post, telefon, nettside, bransje/område, svar på spørsmål om annonsering, ønsket resultat, valgt pakke og eventuell melding.</p>
     <h2>Formål og rettslig grunnlag</h2>

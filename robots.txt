@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://klikklokal.pages.dev/sitemap.xml
+Sitemap: https://klikklokal.no/sitemap.xml

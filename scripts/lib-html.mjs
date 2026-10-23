@@ -1,4 +1,4 @@
-export const BASE = "https://klikklokal.pages.dev";
+export const BASE = "https://klikklokal.no";
 
 export const pairs = {
   home: { nb: "/", es: "/es/" },
@@ -108,7 +108,7 @@ export function footer(lang) {
   if (lang === "nb") {
     return `<footer class="site-footer">
   <div class="wrap">
-    <p class="footer-legal">Klikklokal er en del av ML Digital – MARTINEZ LOZANO INTERNASJONAL HANDEL · Org.nr. 935 407 095 MVA · Norbygata 19, 0187 Oslo · +47 912 90 416 · kontakt@mlinternasjonal.no</p>
+    <p class="footer-legal">Klikklokal er en del av ML Digital – MARTINEZ LOZANO INTERNASJONAL HANDEL · Org.nr. 935 407 095 MVA · Norbygata 19, 0187 Oslo · +47 912 90 416 · kontakt@klikklokal.no</p>
     <nav class="footer-nav" aria-label="Bunnmeny">
       <a href="/priser/">Priser</a>
       <a href="/gratis-annonsesjekk/">Gratis annonsesjekk</a>
@@ -125,7 +125,7 @@ export function footer(lang) {
   }
   return `<footer class="site-footer">
   <div class="wrap">
-    <p class="footer-legal">Klikklokal forma parte de ML Digital – MARTINEZ LOZANO INTERNASJONAL HANDEL · Org.nr. 935 407 095 MVA · Norbygata 19, 0187 Oslo · +47 912 90 416 · kontakt@mlinternasjonal.no</p>
+    <p class="footer-legal">Klikklokal forma parte de ML Digital – MARTINEZ LOZANO INTERNASJONAL HANDEL · Org.nr. 935 407 095 MVA · Norbygata 19, 0187 Oslo · +47 912 90 416 · kontakt@klikklokal.no</p>
     <nav class="footer-nav" aria-label="Pie de página">
       <a href="/es/precios/">Precios</a>
       <a href="/es/revision-gratis/">Revisión gratis</a>

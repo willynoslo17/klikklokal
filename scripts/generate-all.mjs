@@ -45,7 +45,7 @@ const homeOrgLd = {
   url: `${BASE}/`,
   logo: `${BASE}/favicon.svg`,
   telephone: "+4791290416",
-  email: "kontakt@mlinternasjonal.no",
+  email: "kontakt@klikklokal.no",
   identifier: {
     "@type": "PropertyValue",
     name: "Organisasjonsnummer",
@@ -341,7 +341,7 @@ ${nav("nb", "home")}
 </main>
 <footer class="site-footer">
   <div class="wrap">
-    <p class="footer-legal">Klikklokal er en del av ML Digital – MARTINEZ LOZANO INTERNASJONAL HANDEL · Org.nr. 935 407 095 MVA · Norbygata 19, 0187 Oslo · +47 912 90 416 · kontakt@mlinternasjonal.no</p>
+    <p class="footer-legal">Klikklokal er en del av ML Digital – MARTINEZ LOZANO INTERNASJONAL HANDEL · Org.nr. 935 407 095 MVA · Norbygata 19, 0187 Oslo · +47 912 90 416 · kontakt@klikklokal.no</p>
     <p class="trademark">Google Ads er et varemerke for Google LLC. Meta og Facebook er varemerker for Meta Platforms, Inc. Klikklokal er ikke tilknyttet Google eller Meta.</p>
   </div>
 </footer>
