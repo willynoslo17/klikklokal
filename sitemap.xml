@@ -1,89 +1,227 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://klikklokal.no/</loc>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://klikklokal.no/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://klikklokal.no/es/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://klikklokal.no/"/>
-  </url>
-  <url>
-    <loc>https://klikklokal.no/es/</loc>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://klikklokal.no/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://klikklokal.no/es/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://klikklokal.no/"/>
-  </url>
-  <url>
-    <loc>https://klikklokal.no/google-ads/</loc>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://klikklokal.no/google-ads/</loc>
     <xhtml:link rel="alternate" hreflang="nb" href="https://klikklokal.no/google-ads/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://klikklokal.no/es/google-ads/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://klikklokal.no/en/google-ads/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://klikklokal.no/sv/google-ads/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://klikklokal.no/pl/google-ads/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://klikklokal.no/google-ads/"/>
   </url>
-  <url>
-    <loc>https://klikklokal.no/es/google-ads/</loc>
+  <url><loc>https://klikklokal.no/en/google-ads/</loc>
     <xhtml:link rel="alternate" hreflang="nb" href="https://klikklokal.no/google-ads/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://klikklokal.no/es/google-ads/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://klikklokal.no/en/google-ads/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://klikklokal.no/sv/google-ads/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://klikklokal.no/pl/google-ads/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://klikklokal.no/google-ads/"/>
   </url>
-  <url>
-    <loc>https://klikklokal.no/meta-annonser/</loc>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://klikklokal.no/meta-annonser/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://klikklokal.no/es/anuncios-meta/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://klikklokal.no/meta-annonser/"/>
+  <url><loc>https://klikklokal.no/sv/google-ads/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://klikklokal.no/google-ads/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://klikklokal.no/en/google-ads/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://klikklokal.no/sv/google-ads/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://klikklokal.no/pl/google-ads/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://klikklokal.no/google-ads/"/>
   </url>
-  <url>
-    <loc>https://klikklokal.no/es/anuncios-meta/</loc>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://klikklokal.no/meta-annonser/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://klikklokal.no/es/anuncios-meta/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://klikklokal.no/meta-annonser/"/>
+  <url><loc>https://klikklokal.no/pl/google-ads/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://klikklokal.no/google-ads/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://klikklokal.no/en/google-ads/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://klikklokal.no/sv/google-ads/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://klikklokal.no/pl/google-ads/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://klikklokal.no/google-ads/"/>
   </url>
-  <url>
-    <loc>https://klikklokal.no/priser/</loc>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://klikklokal.no/priser/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://klikklokal.no/es/precios/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://klikklokal.no/priser/"/>
-  </url>
-  <url>
-    <loc>https://klikklokal.no/es/precios/</loc>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://klikklokal.no/priser/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://klikklokal.no/es/precios/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://klikklokal.no/priser/"/>
-  </url>
-  <url>
-    <loc>https://klikklokal.no/gratis-annonsesjekk/</loc>
+  <url><loc>https://klikklokal.no/gratis-annonsesjekk/</loc>
     <xhtml:link rel="alternate" hreflang="nb" href="https://klikklokal.no/gratis-annonsesjekk/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://klikklokal.no/es/revision-gratis/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://klikklokal.no/en/gratis-annonsesjekk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://klikklokal.no/sv/gratis-annonsesjekk/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://klikklokal.no/pl/gratis-annonsesjekk/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://klikklokal.no/gratis-annonsesjekk/"/>
   </url>
-  <url>
-    <loc>https://klikklokal.no/es/revision-gratis/</loc>
+  <url><loc>https://klikklokal.no/en/gratis-annonsesjekk/</loc>
     <xhtml:link rel="alternate" hreflang="nb" href="https://klikklokal.no/gratis-annonsesjekk/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://klikklokal.no/es/revision-gratis/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://klikklokal.no/en/gratis-annonsesjekk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://klikklokal.no/sv/gratis-annonsesjekk/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://klikklokal.no/pl/gratis-annonsesjekk/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://klikklokal.no/gratis-annonsesjekk/"/>
   </url>
-  <url>
-    <loc>https://klikklokal.no/kontakt/</loc>
+  <url><loc>https://klikklokal.no/sv/gratis-annonsesjekk/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://klikklokal.no/gratis-annonsesjekk/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://klikklokal.no/en/gratis-annonsesjekk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://klikklokal.no/sv/gratis-annonsesjekk/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://klikklokal.no/pl/gratis-annonsesjekk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://klikklokal.no/gratis-annonsesjekk/"/>
+  </url>
+  <url><loc>https://klikklokal.no/pl/gratis-annonsesjekk/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://klikklokal.no/gratis-annonsesjekk/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://klikklokal.no/en/gratis-annonsesjekk/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://klikklokal.no/sv/gratis-annonsesjekk/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://klikklokal.no/pl/gratis-annonsesjekk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://klikklokal.no/gratis-annonsesjekk/"/>
+  </url>
+  <url><loc>https://klikklokal.no/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://klikklokal.no/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://klikklokal.no/en/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://klikklokal.no/sv/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://klikklokal.no/pl/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://klikklokal.no/"/>
+  </url>
+  <url><loc>https://klikklokal.no/en/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://klikklokal.no/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://klikklokal.no/en/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://klikklokal.no/sv/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://klikklokal.no/pl/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://klikklokal.no/"/>
+  </url>
+  <url><loc>https://klikklokal.no/sv/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://klikklokal.no/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://klikklokal.no/en/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://klikklokal.no/sv/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://klikklokal.no/pl/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://klikklokal.no/"/>
+  </url>
+  <url><loc>https://klikklokal.no/pl/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://klikklokal.no/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://klikklokal.no/en/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://klikklokal.no/sv/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://klikklokal.no/pl/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://klikklokal.no/"/>
+  </url>
+  <url><loc>https://klikklokal.no/kontakt/</loc>
     <xhtml:link rel="alternate" hreflang="nb" href="https://klikklokal.no/kontakt/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://klikklokal.no/es/contacto/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://klikklokal.no/en/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://klikklokal.no/sv/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://klikklokal.no/pl/kontakt/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://klikklokal.no/kontakt/"/>
   </url>
-  <url>
-    <loc>https://klikklokal.no/es/contacto/</loc>
+  <url><loc>https://klikklokal.no/en/kontakt/</loc>
     <xhtml:link rel="alternate" hreflang="nb" href="https://klikklokal.no/kontakt/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://klikklokal.no/es/contacto/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://klikklokal.no/en/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://klikklokal.no/sv/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://klikklokal.no/pl/kontakt/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://klikklokal.no/kontakt/"/>
   </url>
-  <url>
-    <loc>https://klikklokal.no/personvern/</loc>
+  <url><loc>https://klikklokal.no/sv/kontakt/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://klikklokal.no/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://klikklokal.no/en/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://klikklokal.no/sv/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://klikklokal.no/pl/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://klikklokal.no/kontakt/"/>
+  </url>
+  <url><loc>https://klikklokal.no/pl/kontakt/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://klikklokal.no/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://klikklokal.no/en/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://klikklokal.no/sv/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://klikklokal.no/pl/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://klikklokal.no/kontakt/"/>
+  </url>
+  <url><loc>https://klikklokal.no/meta-annonser/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://klikklokal.no/meta-annonser/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://klikklokal.no/en/meta-annonser/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://klikklokal.no/sv/meta-annonser/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://klikklokal.no/pl/meta-annonser/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://klikklokal.no/meta-annonser/"/>
+  </url>
+  <url><loc>https://klikklokal.no/en/meta-annonser/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://klikklokal.no/meta-annonser/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://klikklokal.no/en/meta-annonser/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://klikklokal.no/sv/meta-annonser/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://klikklokal.no/pl/meta-annonser/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://klikklokal.no/meta-annonser/"/>
+  </url>
+  <url><loc>https://klikklokal.no/sv/meta-annonser/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://klikklokal.no/meta-annonser/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://klikklokal.no/en/meta-annonser/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://klikklokal.no/sv/meta-annonser/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://klikklokal.no/pl/meta-annonser/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://klikklokal.no/meta-annonser/"/>
+  </url>
+  <url><loc>https://klikklokal.no/pl/meta-annonser/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://klikklokal.no/meta-annonser/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://klikklokal.no/en/meta-annonser/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://klikklokal.no/sv/meta-annonser/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://klikklokal.no/pl/meta-annonser/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://klikklokal.no/meta-annonser/"/>
+  </url>
+  <url><loc>https://klikklokal.no/personvern/</loc>
     <xhtml:link rel="alternate" hreflang="nb" href="https://klikklokal.no/personvern/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://klikklokal.no/es/privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://klikklokal.no/en/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://klikklokal.no/sv/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://klikklokal.no/pl/personvern/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://klikklokal.no/personvern/"/>
   </url>
-  <url>
-    <loc>https://klikklokal.no/es/privacidad/</loc>
+  <url><loc>https://klikklokal.no/en/personvern/</loc>
     <xhtml:link rel="alternate" hreflang="nb" href="https://klikklokal.no/personvern/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://klikklokal.no/es/privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://klikklokal.no/en/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://klikklokal.no/sv/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://klikklokal.no/pl/personvern/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://klikklokal.no/personvern/"/>
   </url>
-<url><loc>https://klikklokal.no/vilkar/</loc></url>
+  <url><loc>https://klikklokal.no/sv/personvern/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://klikklokal.no/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://klikklokal.no/en/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://klikklokal.no/sv/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://klikklokal.no/pl/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://klikklokal.no/personvern/"/>
+  </url>
+  <url><loc>https://klikklokal.no/pl/personvern/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://klikklokal.no/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://klikklokal.no/en/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://klikklokal.no/sv/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://klikklokal.no/pl/personvern/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://klikklokal.no/personvern/"/>
+  </url>
+  <url><loc>https://klikklokal.no/priser/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://klikklokal.no/priser/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://klikklokal.no/en/priser/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://klikklokal.no/sv/priser/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://klikklokal.no/pl/priser/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://klikklokal.no/priser/"/>
+  </url>
+  <url><loc>https://klikklokal.no/en/priser/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://klikklokal.no/priser/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://klikklokal.no/en/priser/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://klikklokal.no/sv/priser/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://klikklokal.no/pl/priser/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://klikklokal.no/priser/"/>
+  </url>
+  <url><loc>https://klikklokal.no/sv/priser/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://klikklokal.no/priser/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://klikklokal.no/en/priser/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://klikklokal.no/sv/priser/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://klikklokal.no/pl/priser/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://klikklokal.no/priser/"/>
+  </url>
+  <url><loc>https://klikklokal.no/pl/priser/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://klikklokal.no/priser/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://klikklokal.no/en/priser/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://klikklokal.no/sv/priser/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://klikklokal.no/pl/priser/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://klikklokal.no/priser/"/>
+  </url>
+  <url><loc>https://klikklokal.no/vilkar/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://klikklokal.no/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://klikklokal.no/en/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://klikklokal.no/sv/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://klikklokal.no/pl/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://klikklokal.no/vilkar/"/>
+  </url>
+  <url><loc>https://klikklokal.no/en/vilkar/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://klikklokal.no/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://klikklokal.no/en/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://klikklokal.no/sv/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://klikklokal.no/pl/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://klikklokal.no/vilkar/"/>
+  </url>
+  <url><loc>https://klikklokal.no/sv/vilkar/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://klikklokal.no/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://klikklokal.no/en/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://klikklokal.no/sv/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://klikklokal.no/pl/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://klikklokal.no/vilkar/"/>
+  </url>
+  <url><loc>https://klikklokal.no/pl/vilkar/</loc>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://klikklokal.no/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://klikklokal.no/en/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://klikklokal.no/sv/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://klikklokal.no/pl/vilkar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://klikklokal.no/vilkar/"/>
+  </url>
 </urlset>
