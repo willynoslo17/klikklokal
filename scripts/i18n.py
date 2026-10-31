@@ -12,7 +12,8 @@ from deep_translator import GoogleTranslator
 repo='klikklokal'; R=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); os.chdir(R)
 DOM=f'https://{repo}.no'
 LANGS=['en','sv','pl']; LBL={'nb':'NO','en':'EN','sv':'SV','pl':'PL'}
-PROTECT=['935 407 095 MVA','NO','EN','SV','PL','Synlig 14','Snuttverk','Kobleverk','Klikklokal','Hallobot','Synlig14','ML Digital','MARTINEZ LOZANO INTERNASJONAL HANDEL','Martinez Lozano Internasjonal Handel','935 407 095','Org.nr.','org.nr.','Willy Martinez','Turnstile','Cloudflare','Google Ads','Meta']
+PROTECT=['935 407 095 MVA','NO','EN','SV','PL','Synlig 14','Snuttverk','Kobleverk','Klikklokal','Hallobot','Synlig14','ML Digital','MARTINEZ LOZANO INTERNASJONAL HANDEL','Martinez Lozano Internasjonal Handel','935 407 095','Org.nr.','org.nr.','Willy Martinez','Turnstile','Cloudflare','Google Ads','Meta','Pluss','Nettbutikk','Annonsevideo','Google Lokal','Meta Lokal','Google + Meta','Vekstpartner']
+EXACT=['Start','Liten','Abonnement','Pluss','Nettbutikk']
 CACHE=os.path.join(R,'scripts','i18n-cache.json')
 cache=json.load(open(CACHE)) if os.path.exists(CACHE) else {}
 def prot(s):
@@ -43,10 +44,10 @@ def tr_many(strs,lang):
         outs=gx([p[0] for p in ps],lang)
         for x,(_,m),t in zip(batch,ps,outs):
             for k,v in m.items(): t=re.sub(r'Q\s*Z\s*'+k[2:-1]+r'\s*Q',lambda _:v,t,flags=re.I)
-            cache[f'{lang}|{x}']=t.strip()
+            if t.strip(): cache[f'{lang}|{x}']=t.strip()
         json.dump(cache,open(CACHE,'w'),ensure_ascii=False)
         time.sleep(0.5)
-    return {x:cache[f'{lang}|{x}'] for x in strs}
+    return {x:cache.get(f'{lang}|{x}',x) for x in strs}
 pages=sorted(p for p in glob.glob('**/index.html',recursive=True)+['404.html'] if not p.startswith(('es/','en/','sv/','pl/','dist/','functions/')))
 def url_of(p): return '/' if p=='index.html' else ('/404.html' if p=='404.html' else '/'+p[:-10])
 PAGEURLS={url_of(p) for p in pages}
@@ -59,11 +60,11 @@ def nodes(soup):
         if isinstance(t,(Comment,Doctype,Declaration,ProcessingInstruction)) or t.parent is None or t.parent.name in SKIP: continue
         if any(par.get('translate')=='no' for par in t.parents if hasattr(par,'get')): continue
         s=re.sub(r'\s+',' ',str(t)).strip()
-        if re.search(r'[A-Za-zÆØÅæøå]{2,}',s) and s not in PROTECT and not re.fullmatch(r'[\w.+-]+@[\w.-]+|https?://\S+|\+?[\d ]+',s): out.append(('t',t,s))
+        if re.search(r'[A-Za-zÆØÅæøå]{2,}',s) and s not in PROTECT+EXACT and not re.fullmatch(r'[\w.+-]+@[\w.-]+|https?://\S+|\+?[\d ]+',s): out.append(('t',t,s))
     for el in soup.find_all(True):
         for a in ATTRS:
             v=el.get(a)
-            if isinstance(v,str) and re.search(r'[A-Za-zÆØÅæøå]{2,}',v) and v not in PROTECT: out.append(('a',(el,a),v))
+            if isinstance(v,str) and re.search(r'[A-Za-zÆØÅæøå]{2,}',v) and v not in PROTECT+EXACT: out.append(('a',(el,a),v))
         if el.name=='meta' and (el.get('name') in META_N or el.get('property') in META_P) and el.get('content'):
             out.append(('a',(el,'content'),el['content']))
     return out
@@ -149,7 +150,7 @@ def ld_tr(soup,lang):
         def walk(o):
             if isinstance(o,dict):
                 for k,v in o.items():
-                    if k in TKEYS and isinstance(v,str) and v not in PROTECT and re.search(r'[a-zæøå]{3}',v): bag.append(v)
+                    if k in TKEYS and isinstance(v,str) and v not in PROTECT+EXACT and re.search(r'[a-zæøå]{3}',v): bag.append(v)
                     else: walk(v)
             elif isinstance(o,list):
                 for x in o: walk(x)
