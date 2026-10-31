@@ -198,7 +198,7 @@ for p in pages:
         if lang!='nb': ld_tr(soup,lang)
         if lang!='nb':
             for el in soup.find_all(attrs={'lang':'nb'}):
-                if el.name!='a' or not el.get('hreflang'): el['lang']=lang
+                if (el.name!='a' or not el.get('hreflang')) and el.get('translate')!='no': el['lang']=lang
         fixlinks(soup,lang); headfix(soup,lang,u)
         if n==0: report.setdefault('noswitch',[]).append(p)
         out=cookie(str(soup),lang)
