@@ -7,7 +7,7 @@ Translations come from scripts/i18n-cache.json; only strings missing from the ca
 are machine-translated (needs network). Requires: pip install beautifulsoup4 requests
 """
 import sys,os,re,json,time,glob
-from bs4 import BeautifulSoup, NavigableString, Comment
+from bs4 import BeautifulSoup, NavigableString, Comment, Doctype, Declaration, ProcessingInstruction
 from deep_translator import GoogleTranslator
 repo='klikklokal'; R=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); os.chdir(R)
 DOM=f'https://{repo}.no'
@@ -56,7 +56,7 @@ SKIP={'script','style','code','noscript'}
 def nodes(soup):
     out=[]
     for t in soup.find_all(string=True):
-        if isinstance(t,Comment) or t.parent.name in SKIP: continue
+        if isinstance(t,(Comment,Doctype,Declaration,ProcessingInstruction)) or t.parent is None or t.parent.name in SKIP: continue
         if any(par.get('translate')=='no' for par in t.parents if hasattr(par,'get')): continue
         s=re.sub(r'\s+',' ',str(t)).strip()
         if re.search(r'[A-Za-zÆØÅæøå]{2,}',s) and s not in PROTECT and not re.fullmatch(r'[\w.+-]+@[\w.-]+|https?://\S+|\+?[\d ]+',s): out.append(('t',t,s))
@@ -195,6 +195,9 @@ for p in pages:
                 else: ref[0][ref[1]]=t
         n=switcher(soup,lang,u)
         if lang!='nb': ld_tr(soup,lang)
+        if lang!='nb':
+            for el in soup.find_all(attrs={'lang':'nb'}):
+                if el.name!='a' or not el.get('hreflang'): el['lang']=lang
         fixlinks(soup,lang); headfix(soup,lang,u)
         if n==0: report.setdefault('noswitch',[]).append(p)
         out=cookie(str(soup),lang)
