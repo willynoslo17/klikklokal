@@ -69,11 +69,14 @@ Todo el noruego es **borrador**. Revisa `TEXTOS_NO_PARA_REVISAR.md` (p. ej. con 
 
 ## Regenerar HTML (opcional)
 
-Si editas plantillas en `scripts/pages-*.mjs` / `scripts/lib-html.mjs`:
+Idiomas: noruego (raíz, fuente) + `/en/`, `/sv/`, `/pl/`. El español ya no se genera.
+Edita el HTML noruego y luego ejecuta (requiere `python3` con `beautifulsoup4` y `requests`):
 
-```bash
+```
 node scripts/generate-all.mjs
 ```
+
+Las traducciones salen de `scripts/i18n-cache.json`; solo los textos nuevos se traducen automáticamente.
 
 No forma parte del deploy de Pages.
 
