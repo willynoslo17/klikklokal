@@ -113,8 +113,7 @@ export function footer(lang) {
       <a href="/priser/">Priser</a>
       <a href="/gratis-annonsesjekk/">Gratis annonsesjekk</a>
       <a href="/personvern/">Personvern</a>
-      <a href="https://willymartinez.no/consulting">willymartinez.no/consulting</a>
-      <span>© 2026</span>
+<span>© 2026</span>
     </nav>
     <p class="trademark">Google Ads er et varemerke for Google LLC. Meta og Facebook er varemerker for Meta Platforms, Inc. Klikklokal er ikke tilknyttet Google eller Meta.</p>
   </div>
@@ -130,8 +129,7 @@ export function footer(lang) {
       <a href="/es/precios/">Precios</a>
       <a href="/es/revision-gratis/">Revisión gratis</a>
       <a href="/es/privacidad/">Privacidad</a>
-      <a href="https://willymartinez.no/consulting">willymartinez.no/consulting</a>
-      <span>© 2026</span>
+<span>© 2026</span>
     </nav>
     <p class="trademark">Google Ads es una marca de Google LLC. Meta y Facebook son marcas de Meta Platforms, Inc. Klikklokal no está afiliado a Google ni a Meta.</p>
   </div>

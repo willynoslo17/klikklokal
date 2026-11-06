@@ -66,7 +66,7 @@ const homeOrgLd = {
   founder: {
     "@type": "Person",
     name: "Willy Edison Martínez Lozano",
-    sameAs: ["https://willymartinez.no/consulting"]
+    sameAs: ["https://willymartinez.no"]
   },
   knowsLanguage: ["nb", "es", "en"],
   makesOffer: [
@@ -190,19 +190,7 @@ ${nav("nb", "home")}
 <li>Månedlig rapport på et enkelt språk: hva det kostet, og hva du fikk (klikk, anrop, henvendelser) slik plattformene måler det.</li>
 </ul>
   </div></section>
-  <section class="section"><div class="wrap">
-    <h2>Andre tjenester fra ML Digital</h2>
-    <p><a href="https://willymartinez.no/consulting">Rådgivning i internasjonal handel</a></p>
-    <!-- TODO Willy: activar cuando cada web esté publicada; no enlazar webs que no existen. -->
-    <!--
-    <ul>
-      <li>Snuttverk – annonsevideoer og innhold</li>
-      <li>Synlig14 – nettside som annonsene kan lede til</li>
-      <li>Hallobot – chatbot</li>
-      <li>Kobleverk – automatisering</li>
-    </ul>
-    -->
-  </div></section>
+
 </main>
 ${footer("nb")}`
 );
@@ -283,19 +271,7 @@ ${nav("es", "home")}
 <li>Informe mensual en lenguaje sencillo: qué costó y qué obtuviste (clics, llamadas, formularios) según miden las plataformas.</li>
 </ul>
   </div></section>
-  <section class="section"><div class="wrap">
-    <h2>Otros servicios de ML Digital</h2>
-    <p><a href="https://willymartinez.no/consulting">Asesoría en comercio internacional</a></p>
-    <!-- TODO Willy: activar cuando cada web esté publicada; no enlazar webs que no existen. -->
-    <!--
-    <ul>
-      <li>Snuttverk – vídeos de anuncio y contenido</li>
-      <li>Synlig14 – web a la que pueden llevar los anuncios</li>
-      <li>Hallobot – chatbot</li>
-      <li>Kobleverk – automatización</li>
-    </ul>
-    -->
-  </div></section>
+
 </main>
 ${footer("es")}`
 );

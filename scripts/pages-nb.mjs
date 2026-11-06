@@ -491,8 +491,8 @@ ${nav("nb", "kontakt")}
       
 
 <!-- TODO Willy: añadir certificaciones de Google Ads / Meta Blueprint solo si las obtienes (son gratuitas). -->
-      <p><a href="https://willymartinez.no/consulting">Rådgivning i internasjonal handel</a></p>
-    </div>
+      
+</div>
   </div></section>
 </main>
 ${footer("nb")}`;
