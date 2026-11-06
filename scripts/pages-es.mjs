@@ -486,9 +486,9 @@ ${nav("es", "kontakt")}
     <div>
       <h2>Sobre mí</h2>
       <p>Soy Willy Edison Martínez Lozano. Klikklokal se gestiona a través de mi empresa unipersonal MARTINEZ LOZANO INTERNASJONAL HANDEL, registrada en Oslo (org.nr. 935 407 095 MVA). Klikklokal forma parte de ML Digital.</p>
-      <p>Fui fundador de Wecrops Perú (agencia de marketing y producción audiovisual, Chimbote, 2015–2022) y tengo experiencia en marketing desde 2015. Cuento con 7 diplomas de Toulouse Lautrec (2019–2021).<!-- TODO Willy: confirmar títulos exactos de los diplomas. --></p>
-      <p>Trabajo en español e inglés, y en noruego con textos revisados.</p>
-      <!-- TODO Willy: añadir certificaciones de Google Ads / Meta Blueprint solo si las obtienes (son gratuitas). -->
+      
+
+<!-- TODO Willy: añadir certificaciones de Google Ads / Meta Blueprint solo si las obtienes (son gratuitas). -->
       <p><a href="https://willymartinez.no/consulting">Asesoría en comercio internacional</a></p>
     </div>
   </div></section>

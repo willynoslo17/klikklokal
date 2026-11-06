@@ -187,10 +187,8 @@ ${nav("nb", "home")}
       <li>Fast månedspris, uansett hvor stort budsjettet ditt er.</li>
       <li>Annonsekontoen står i ditt navn, og du betaler budsjettet direkte til plattformen.</li>
       <li>Annonser på norsk, spansk og engelsk – nyttig hvis kundene dine snakker flere språk.</li>
-      <li>Grunnlegger av Wecrops Perú (byrå for markedsføring og videoproduksjon, Chimbote, 2015–2022) – erfaring med markedsføring siden 2015.</li>
-      <li>Månedlig rapport på et enkelt språk: hva det kostet, og hva du fikk (klikk, anrop, henvendelser) slik plattformene måler det.</li>
-      <li>Jeg jobber på spansk og engelsk, og på norsk med kvalitetssikrede tekster.</li>
-    </ul>
+<li>Månedlig rapport på et enkelt språk: hva det kostet, og hva du fikk (klikk, anrop, henvendelser) slik plattformene måler det.</li>
+</ul>
   </div></section>
   <section class="section"><div class="wrap">
     <h2>Andre tjenester fra ML Digital</h2>
@@ -282,10 +280,8 @@ ${nav("es", "home")}
       <li>Cuota fija mensual, da igual el tamaño de tu presupuesto de anuncios.</li>
       <li>La cuenta de anuncios está a tu nombre y pagas el presupuesto directo a la plataforma.</li>
       <li>Anuncios en noruego, español e inglés – útil si tus clientes hablan varios idiomas.</li>
-      <li>Fundador de Wecrops Perú (agencia de marketing y producción audiovisual, Chimbote, 2015–2022) – experiencia en marketing desde 2015.</li>
-      <li>Informe mensual en lenguaje sencillo: qué costó y qué obtuviste (clics, llamadas, formularios) según miden las plataformas.</li>
-      <li>Trabajo en español e inglés, y en noruego con textos revisados.</li>
-    </ul>
+<li>Informe mensual en lenguaje sencillo: qué costó y qué obtuviste (clics, llamadas, formularios) según miden las plataformas.</li>
+</ul>
   </div></section>
   <section class="section"><div class="wrap">
     <h2>Otros servicios de ML Digital</h2>
